@@ -19,7 +19,7 @@ export function ShellTexture({
   i: number
   noiseTexture?: WebGLTexture
 }) {
-  const mat = useRef<THREE.ShaderMaterial>(null)
+  const mat = useRef<ShaderMaterial>(null)
   const { height } = useControls({
     height: { value: 0.1, min: 0, max: 1, step: 0.01, label: 'Height' },
   })

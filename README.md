@@ -1,20 +1,5 @@
-# react-three-base
+# shell-texturing
 
-Get started by cloning the template:
-```bash
-pnpx degit mate-h/react-three-base project-name
-cd project-name
-pnpm install
-pnpm run dev
-```
+Demo: https://shell-texturing.vercel.app
 
-Dependencies:
-```
-vite
-tweakpane
-three
-vite-plugin-glsl
-@react-three/fiber
-@react-three/drei
-r3f-perf
-```
+Demonstration of shell texturing techniques using WebGL and the Three.js library.
